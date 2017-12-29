@@ -1,0 +1,8 @@
+{
+  "name": "rosie",
+  "description": "Automated cleanup of OpenAQ database",
+  "memory": 128,
+  "timeout": 300,
+  "role": "arn:aws:iam::470049585876:role/rosie_lambda_function",
+  "environment": {}
+}
