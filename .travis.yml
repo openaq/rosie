@@ -2,7 +2,7 @@ language: node_js
 node_js:
   - "8"
 install:
-  - curl https://raw.githubusercontent.com/apex/apex/master/install.sh | sh
+  - wget -O /usr/local/bin/apex https://github.com/apex/apex/releases/download/v0.16.0/apex_linux_amd64
   - cd functions/cleanup
   - npm install
   - cd ../../
